@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nbImg {
+  height: 3rem;
+}
+
+.nbcontainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainbg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("images/netflix_bg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.dropdown {
+  -webkit-appearance: none;
+  background: transparent;
+  padding: 5% 10%;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+option {
+  color: black;
+}
+
+.dropdowncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1% 6%;
+  font-weight: bold;
+}
+
+.dropdowncontainer > img {
+  color: white;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.signin {
+  margin-left: 2%;
+  padding: 3% 7%;
+  background-color: red;
+  outline: none;
+  border: solid black;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.mainsection {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 60%;
+  width: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.mainsection > h5 {
+  font-weight: 300;
+  line-height: 3;
+}
+
+.credentials > input {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid white;
+  padding: 1.5% 10% 1.5% 2%;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.credentials > button {
+  text-align: left;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  padding: 0.8% 4% 1.2% 4%;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.line{
+  height: 0.6rem;
+  background-color: rgb(79, 79, 79);
+}
+
+.yourTv{
+  color: white;
+  background-color: black;
+  height: 80vh;
+}
+
+.content{
+  width: 40%;
+  position: relative;
+  top: 35%;
+  left: 13%;
+  font-size: 1.2rem;
+}
+
+.content>h1{
+  font-size: 3rem;
+}
+
+.yourTv>img{
+  height: 70%;
+  width: 36%;
+  position: relative;
+  left: 53%;
+  bottom: 10%;
+}
+
+.yourPhone{
+  color: white;
+  background-color: black;
+  height: 80vh;
+}
+
+.yourPhone>.content{
+  width: 47%;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  font-size: 1.2rem;
+}
+
+.yourPhone>img{
+  height: 70%;
+  width: 36%;
+  position: relative;
+  left: 10%;
+  bottom: 30%;
+}
